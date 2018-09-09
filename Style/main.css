@@ -1,120 +1,176 @@
 @font-face{
-	font-family: 'Montserrat', sans-serif;
+        font-family: 'Montserrat', sans-serif;
 
 }
+
+
+
 
 body{
 
-	hyphens: auto;
-		text-align: justify;
+background-color: #1e1e1c;
+        hyphens: auto;
+                text-align: justify;
 
-	font-family: 'Montserrat', cursive;
-	font-size: 1.3em;
+        font-family: 'Montserrat', cursive;
+        font-size: 1.3em;
 }
 section {
 
-	hyphens: auto;
-		text-align: justify;
+        hyphens: auto;
+                text-align: justify;
 
-	background: gray;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	font-family: 'Montserrat', cursive;
-	font-size: 1.3em;
+        background: gray;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-family: 'Montserrat', cursive;
+        font-size: 1.3em;
 }
 h2{
-	hyphens: auto;
-	text-align: center;
-	font-family: 'Montserrat', cursive;
-	font-size: 3em;
+        hyphens: auto;
+        text-align: center;
+        font-family: 'Montserrat', cursive;
+        font-size: 3em;
 }
 p{
 font-weight: lighter;
-	hyphens: auto;
-	text-align: justify;
-	font-family: 'Montserrat', cursive;
-	font-size: 1.3em;
+        hyphens: auto;
+        text-align: justify;
+        font-family: 'Montserrat', cursive;
+        font-size: 1.3em;
+}
+header{
+        background-color:  #1e1e1c;
+
 }
 
 
 @keyframes animafreccia {
-	from{transform: scale(1);}
-	to{transform:  scale(1.2);}
+        from{transform: scale(1);}
+        to{transform:  scale(1.2);}
 }
 
 
 @keyframes sort {
-	from{transform: rotate(0deg);}
-	to{transform: rotate(360deg);}
+        from{transform: rotate(0deg);}
+        to{transform: rotate(360deg);}
 }
 
+#bordo {
+        border:0px;
+                background-color: rgba(0,0,0,0);
+
+}
+
+
+.navbar{
+        background-color: rgba(0,0,0,0);
+        margin: 0;
+        font-family: 'Montserrat', cursive;
+        border:0px;
+
+
+}
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a:focus{
+        background-color: rgba(0,0,0,0);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 100px;
+        color:#EC7A55;
+        border:0px;
+
+}
+.navbar .container-fluid{
+        background-color: rgba(0,0,0,0);
+
+}
+.navbar-default .navbar-nav>li>a:hover{
+        color:#ffffff;
+}
+.navbar-brand{
+        background-color: rgba(0,0,0,0);
+        width: 120px;
+        height: 120px;
+        position: absolute;
+}
+
+
+
+
+
+
+
 .freccia {
-	position: absolute;
-	height: 100px;
-	width:100px;
-	top :80vh;
-	left:48%;
-	
+        position: absolute;
+        height: 100px;
+        width:100px;
+        top :80vh;
+        left:48%;
+
 }
 
 
 
 #prov{
-	animation: animafreccia 0.8s infinite alternate;
+        animation: animafreccia 0.8s infinite alternate;
 }
 
 .intro{
-	background-image: url('../immagini/gabriel.jpg') ;
-	background-repeat: no-repeat;
+        background-image: url('../immagini/gabriel.jpg') ;
 
-	font-family: 'Montserrat', cursive;
-	position: center;
-	height: 90vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        padding: 0 ;
+
+        font-family: 'Montserrat', cursive;
+        position: center;
+        height: 90vh;
 }
 
 .intro h1{
-	color: white;
-	text-align: center;
-	padding-top: 20%;
+        color: white;
+        text-align: center;
+
 }
 
 
-#anagrafica{	
-	color:#ffffff;	
-	background-color:#1e1e1c ;
-	padding: 40px;
-	font-weight: lighter;
-	font-family: 'Montserrat', cursive;
+#anagrafica{
+        color:#ffffff;
+        background-color:#1e1e1c ;
+        padding: 40px;
+        font-weight: lighter;
+        font-family: 'Montserrat', cursive;
 }
 
 
 .cards h2{
-	font-family: 'Montserrat', cursive;
-	font-size: 2.5;
+        font-family: 'Montserrat', cursive;
+        font-size: 2.5;
 
-	
+
 }
 
 #cards{
-	padding: 7%;
-	background-color: #1e1e1c;
-	padding-bottom: 25px;
-	font-family: 'Montserrat', cursive; 
+        padding: 7%;
+        background-color: #1e1e1c;
+        padding-bottom: 25px;
+        font-family: 'Montserrat', cursive;
 }
 
 .sliding-card{
-	height: 300px;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
-	overflow: hidden;
-	
+        height: 300px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+
 }
 
 
 .sliding-card .card-slider{
-	-webkit-transition-duration: .3s; 
+        -webkit-transition-duration: .3s;
     transition-duration: .3s;
     position: absolute;
     width: 100%;
@@ -122,84 +178,80 @@ font-weight: lighter;
 }
 
 .sliding-card .card-slider:hover{
-	margin-top: -300px;
+        margin-top: -300px;
 }
 
 .sliding-card .card-up{
-	height: 300px;
+        height: 300px;
 }
 
 .sliding-card .card-down{
-	height: 300px;
-	background: rgba(0, 0, 0, .75);
-	color: white;
-	padding: 20px;
-	font-size: .75em;
+        height: 300px;
+        background: rgba(0, 0, 0, .75);
+        color: white;
+        padding: 20px;
+        font-size: .75em;
 }
 
 
 .sliding-card .card-down ul{
-	list-style: none;
-	padding: 0;
+        list-style: none;
+        padding: 0;
 }
 .sliding-card .card-down ul li span {
-	color:white;
-	font-weight: bold;
+        color:white;
+        font-weight: bold;
 }
 #ts{
-	color: white;
-	background: url('../immagini/gyb.JPG') ;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	padding: 0 ;
-	
-	
+        color: white;
+        background: url('../immagini/gyb.JPG') ;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 0 ;
+
+
 }
 #ts>div{
-	background-color: rgba(0,0,0,.7);
-	height: 100%;
-	width: 100%;
-	padding: 40px;
+        background-color: rgba(0,0,0,.7);
+        height: 100%;
+        width: 100%;
+        padding: 40px;
 }
 
 #illustration{
-	background-color:#1e1e1c;
-	color:#ffffff;
-	height: 500px;
+        background-color:#1e1e1c;
+        color:#ffffff;
+        height: 500px;
 }
 
 #AboutMe{
-	background-color:#1e1e1c;
-	color:#ffffff;
+        background-color:#1e1e1c;
+        color:#ffffff;
 }
 #informatica{
-	background-color: #1e1e1c;
-	color:#ffffff;
+        background-color: #1e1e1c;
+        color:#ffffff;
 }
 
 ul{
-	list-style: none;
+        list-style: none;
 }
 
 #esercizi li{
 
-	right: 50%;
-	text-align: center;
-	background-color: rgba(50,50,50,.8);
-	height: 50px;
-	width: 200px;
+        right: 50%;
+        text-align: center;
+        background-color: rgba(50,50,50,.8);
+        height: 50px;
+        width: 200px;
+padding: 5%;
 
 
 }
-#esercizi a{
-
-padding: 15px;
-margin:15px;
 
 
-}
 
 #esercizi{
 position: inherit;
@@ -207,14 +259,21 @@ position: inherit;
 margin:10%;
 }
 
+#esercizi a{
+        color: white;
+        position: inherit;
+
+
+}
+
 #foot{
-	background-color: #1e1e1c ;
-	padding:10px; 	
- 	color:#ffffff;
+        background-color: #1e1e1c ;
+        padding:10px;
+         color:#ffffff;
 }
 
 #designTools{
-	background-color: rgba(0,0,0,0);
+        background-color: rgba(0,0,0,0);
 }
 
 .progress-item {
@@ -267,3 +326,71 @@ margin:10%;
         margin-bottom: 50px;
         }
     }
+
+
+
+
+
+
+
+
+
+
+
+
+.illus{
+        height: 275px; width: auto;
+}
+
+#d1{
+
+  cursor: pointer;
+}
+
+#d2{
+
+  cursor: pointer;
+}
+#d3{
+
+  cursor: pointer;
+}
+#d4{
+
+  cursor: pointer;
+}
+
+.screen{
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        z-index: 100;
+        padding:  20px;
+        background-color: #1e1e1c;
+        height: 100%;
+        width: 100%;
+        }
+.imgCentrata{
+        position: inherit;      top: 50%;
+        left: 50%;
+transform: translate(-50%, -50%);
+height: 500px;
+width: auto;
+}
+.pulsa{
+	animation: pulsating 1s forwards;
+}
+
+@keyframes pulsating {
+	from{transform:scale(1.0);}
+	to{transform:scale(1.2);}
+}
+
+.pulsadue{
+	animation: pulsatingdue 1s forwards;
+}
+
+@keyframes pulsatingdue{
+	from{transform:scale(1.2);}
+	to{transform:scale(1.0);}
+}
