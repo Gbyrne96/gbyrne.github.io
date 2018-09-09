@@ -1,4 +1,8 @@
+@font-face{
+        font-family: 'GT America Medium', sans-serif;
 
+}
+GT America Medium
 
 
 
@@ -8,7 +12,7 @@ background-color: #1e1e1c;
         hyphens: auto;
                 text-align: justify;
 
-								font-family: 'Lato', sans-serif;
+        font-family: 'GT America Medium', cursive;
         font-size: 1.3em;
 }
 section {
@@ -19,20 +23,20 @@ section {
         background: gray;
         padding-top: 50px;
         padding-bottom: 50px;
-				font-family: 'Lato', sans-serif;
+        font-family: 'GT America Medium', cursive;
         font-size: 1.3em;
 }
 h2{
         hyphens: auto;
         text-align: center;
-				font-family: 'Lato', sans-serif;
+        font-family: 'GT America Medium', cursive;
         font-size: 3em;
 }
 p{
 font-weight: lighter;
         hyphens: auto;
         text-align: justify;
-				font-family: 'Lato', sans-serif;
+        font-family: 'GT America Medium', cursive;
         font-size: 1.3em;
 }
 header{
@@ -62,7 +66,7 @@ header{
 .navbar{
         background-color: rgba(0,0,0,0);
         margin: 0;
-				font-family: 'Lato', sans-serif;
+        font-family: 'GT America Medium', cursive;
         border:0px;
 
 
@@ -119,7 +123,7 @@ header{
 
         padding: 0 ;
 
-				font-family: 'Lato', sans-serif;
+        font-family: 'GT America Medium', cursive;
         position: center;
         height: 90vh;
 }
@@ -136,12 +140,12 @@ header{
         background-color:#1e1e1c ;
         padding: 40px;
         font-weight: lighter;
-				font-family: 'Lato', sans-serif;
+        font-family: 'GT America Medium', cursive;
 }
 
 
 .cards h2{
-	font-family: 'Lato', sans-serif;
+        font-family: 'GT America Medium', cursive;
         font-size: 2.5;
 
 
@@ -151,7 +155,7 @@ header{
         padding: 7%;
         background-color: #1e1e1c;
         padding-bottom: 25px;
-				font-family: 'Lato', sans-serif;
+        font-family: 'GT America Medium', cursive;
 }
 
 .sliding-card{
